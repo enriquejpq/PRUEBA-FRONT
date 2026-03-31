@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 90%; 
+    margin: 20px auto;
+    border: 2px solid #333; 
+    background-color: #cccccc; 
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50; 
+    padding: 30px;
+    border: 2px solid #2e7d32; 
+    height: 120px;
+}
+
+header h1 {
+    color: white; /* Requerido: Blanco */
+    text-align: center; /* Requerido: Centrado */
+}
+
+/* Navegación */
+nav {
+    background-color: #333333; /* Color fondo distinto */
+    padding: 15px;
+    border: 2px solid #000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Requerido: Blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección Principal (Layout con Float) */
+#content {
+    float: left; /* Requerido: Layout Float */
+    width: 70%; /* Requerido: width */
+    background-color: #ffffff; /* Color fondo distinto */
+    padding: 20px;
+    min-height: 400px;
+    border: 2px solid #dddddd;
+}
+
+#content h2, #content h3 {
+    text-align: center; /* Requerido: Centrado */
+    margin-bottom: 15px;
+}
+
+/* Sidebar (Layout con Float) */
+aside {
+    float: left; /* Requerido: Layout Float */
+    width: 30%; /* Requerido: width */
+    background-color: #ffeb3b; /* Color fondo distinto */
+    padding: 20px;
+    min-height: 400px;
+    border: 2px solid #fbc02d;
+}
+
+/* Pie de página */
+footer {
+    clear: both; /* Limpia el float */
+    background-color: #2196F3; /* Color fondo distinto */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #1976d2;
+}
+
+/* Estilos de elementos específicos */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+ul {
+    margin-left: 40px;
+}
